@@ -1,0 +1,63 @@
+body {
+  font-weight: bold;
+  color: #f07f3d;
+  font-family: "Roboto", sans-serif;
+  padding: 60px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 20px solid #02744f;
+  border-radius: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+#suporte-atual {
+  font-size: 35px;
+  margin-top: 50px;
+  color: #02744f;
+}
+
+#suportes-realizados {
+  font-size: 15px;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+#chamar-btn {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 30px;
+  margin-top: 40px;
+  background-color: #f07f3d;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#chamar-btn:hover {
+  background-color: #d56532;
+}
+
+.logo {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 100px;
+}
+
+.content {
+  background-color: #fff;
+}
