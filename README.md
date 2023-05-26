@@ -4,7 +4,7 @@ Um simples aplicativo de chamador de suporte para atendimento ao cliente.
 
 ## Descrição
 
-O Chamador de Suporte é uma aplicação web que permite chamar o próximo suporte de uma fila. Ele exibe o número do suporte atual, além de manter uma lista dos suportes já realizados.
+O Chamador de Suporte é uma aplicação web que permite chamar o próximo suporte para atender os professoras. Ele exibe o número do suporte atual, além de manter uma lista dos suportes já realizados.
 
 ## Recursos
 
