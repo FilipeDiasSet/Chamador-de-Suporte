@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title class="titulo">Chamador de Suporte</title>
+  <title>Chamador de Suporte</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Chamador de Suporte</h1>
+  <div class="container">
+    <h1>Chamador de Suporte</h1>
 
-  <h2>Suporte Atual:</h2>
-  <div id="suporte-atual">-</div>
+    <button class="button" onclick="gerarSuporte()">Gerar Suporte</button>
 
-  <button id="chamar-btn">Chamar Suporte</button>
+    <h2 id="suporte"></h2>
 
-  <h2>Suportes Realizados:</h2>
-  <div id="suportes-realizados"></div>
+    <h3>Suportes em ordem:</h3>
+    <ul id="suportes"></ul>
 
-  <img class="logo" src="img/logo.svg" alt="Logo">
+    <button id="finalizado" class="button" onclick="finalizar()">Finalizado</button>
+  </div>
+
+  <div class="logo">
+    <img src="logo.png" alt="Logo">
+  </div>
 
   <script src="script.js"></script>
 </body>
-
 </html>
