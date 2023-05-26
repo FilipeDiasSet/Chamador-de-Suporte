@@ -1,7 +1,7 @@
 var proximoSuporte = 1;
 var suportesRealizados = [];
 
-var audio = new Audio('/msc/Toque.mp3');
+var audio = new Audio('msc/toque.mp3');
 
 function chamarSuporte() {
   var suporteAtualElement = document.getElementById("suporte-atual");
