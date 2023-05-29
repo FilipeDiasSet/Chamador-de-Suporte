@@ -25,7 +25,7 @@ function finalizar() {
 }
 
 function playSound() {
-  audio = new Audio('beep.mp3'); // Substitua "beep.mp3" pelo caminho para o seu arquivo de som
+  audio = new Audio('msc/toque.mp3'); // Substitua "beep.mp3" pelo caminho para o seu arquivo de som
   audio.loop = true;
   audio.play();
 }
